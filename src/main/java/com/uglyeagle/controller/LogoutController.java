@@ -12,12 +12,15 @@ public class LogoutController extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         request.logout();
+        request.getSession(false).invalidate();
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         request.logout();
+        request.getSession(false).invalidate();
+
     }
 
     @Override
