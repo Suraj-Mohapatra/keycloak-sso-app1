@@ -12,14 +12,14 @@
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jakartaee>10.0.0</jakartaee>
+        <javaee>8.0.1</javaee>
     </properties>
     
     <dependencies>
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
-            <version>8.0.1</version>
+            <version>${javaee}</version>
             <scope>provided</scope>
         </dependency>
         
