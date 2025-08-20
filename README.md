@@ -15,4 +15,4 @@ or
 kc.bat start-dev --https-port=9443
 ```
 
-visit https://www.keycloak.org/archive/documentation-24.0.html and open "Securing Applications and Services".
+visit https://www.keycloak.org/archive/documentation-24.0.html and open "Securing Applications and Services"
