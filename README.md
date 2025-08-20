@@ -5,7 +5,9 @@ using keycloak v24.0.5 as it supports java specific adapters which are deprecate
 
 v24.0.5 ensures correct integration, although you may upgrade its version or its adapters' versions (see maven repository) to work with Jakarta specifications.  
 
-this implementation uses servlet filter adapter to secure the application.
+this implementation uses servlet filter adapter to secure the application.  
+
+see the pom.xml, web.xml, context.xml carefully.
 
 start keycloak in dev mode as below,
 
