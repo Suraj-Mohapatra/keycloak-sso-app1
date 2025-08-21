@@ -9,3 +9,7 @@ username:user1
 password:password  
 
 x-www-form-urlencoded
+
+
+or get redirected to kc login page
+
